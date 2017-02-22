@@ -328,22 +328,32 @@
                 <ul class="sidebar-menu">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="treeview">
-                        <a href="#">
+                        <a href="index.html">
                             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-                           
+
                         </a>
                        
                     </li>
                    
                   
                     <li class="treeview active">
-                        <a href="#">
+                        <a href="Complains/Index">
                             <i class="fa fa-table"></i> <span>Complains</span>
                             <span class="pull-right-container">
                                
                             </span>
                         </a>
                         
+                    </li>
+
+                    <li class="treeview active">
+                        <a href="Users/Index">
+                            <i class="fa fa-table"></i> <span>Users</span>
+                            <span class="pull-right-container">
+
+                            </span>
+                        </a>
+
                     </li>
                   
                     <li class="treeview">
@@ -360,13 +370,13 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Data Tables
-                    <small>advanced tables</small>
+                    Complains Table
+                    
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li><a href="#">Tables</a></li>
-                    <li class="active">Data tables</li>
+                    <li><a href="index.html"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li><a href="#">Complains</a></li>
+                    
                 </ol>
             </section>
            
@@ -374,16 +384,16 @@
             <!-- Main content -->
          
             <section class="content">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <button class="btn-lg btn btn-success">New Complain</button>
+                <div class="box">
+                    <div class="box-header">
+                        <button class="btn-adn">New Complain</button>
                     </div>
                 </div>
                             
                         <!-- /.box -->
                         <div class="box">
                             <div class="box-header">
-                                <h3 class="box-title">Data Table </h3>
+                                <h3 class="box-title">Complains Table </h3>
                             </div>
                             <!-- /.box-header -->
                             <div class="box-body">
@@ -391,11 +401,12 @@
                                     <thead>
                                         <tr>
                                             <th><input type="checkbox"/></th>
-                                            <th>Rendering engine</th>
-                                            <th>Browser</th>
-                                            <th>Platform(s)</th>
-                                            <th>Engine version</th>
-                                            <th>CSS grade</th>
+                                            <th>Id</th>
+                                            <th>Title</th>
+                                            <th>Computer Id</th>
+                                            <th>Status</th>
+                                            <th>Resolved By</th>
+                                           
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -410,6 +421,7 @@
                                             <td>Win 95+</td>
                                             <td> 4</td>
                                             <td>X</td>
+                                            
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox" /></td>
